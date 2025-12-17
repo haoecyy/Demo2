@@ -11,7 +11,7 @@ st.write("**Bold text**")
 st.write("Hello guys and **Bold Text**")
 st.header("Section 1: Introduction")
 st.subheader("Profile input")
-name=st.input("enter your name: ")
+name = st.input("enter your name: ")
 st.write(f"Your name is {name}")
 age = st.number_input("Enter your age:",
                       min_value=0,
@@ -22,3 +22,5 @@ option = st.selectbox("Choose your favorite color:",
                       ["Red", "Blue", "Green"])
 st.write(f"You selected: {option}")
 
+if st.button("Click Me"):
+    st.write("Button clicked!")
