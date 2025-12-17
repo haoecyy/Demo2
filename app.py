@@ -10,6 +10,7 @@ st.write({"Name":"Alice","Age":3})
 st.write("**Bold text**")
 st.write("Hello guys and **Bold Text**")
 st.header("Section 1: Introduction")
+st.subheader("Profile input")
 age = st.number_input("Enter your age:",
                       min_value=0,
                       max_value=120,
