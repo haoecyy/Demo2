@@ -26,7 +26,6 @@ if st.button("Click Me"):
 st.success("Operation completed successfully!")
 
 
-
 st.title("Streamlit Demo App")
 st.header("User Input Section")
 
