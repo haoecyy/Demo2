@@ -13,8 +13,7 @@ st.header("Section 1: Introduction")
 st.subheader("Profile input")
 age = st.number_input("Enter your age:",
                       min_value=0,
-                      max_value=120,
-                      value=25)
+                      max_value=120)
 st.write(f"Your age is {age}")
 option = st.selectbox("Choose your favorite color:",
                       ["Red", "Blue", "Green"])
