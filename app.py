@@ -36,7 +36,7 @@ Age = st.number_input("Enter your age:",
                       max_value=120,
                       value=25)
 Color = st.selectbox("Choose your favorite color:",
-                     ["Red", "Blue", "Green"])
+                     ["YEllow", "Blue", "Green"])
 
 if st.button("Submit"):
     st.success(f"Thank you! Age: {Age}, Favorite Color: {Color}")
